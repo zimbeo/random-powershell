@@ -1,5 +1,5 @@
 # Input your list of IP's to test here
-$ips = Get-content C:\temp\eset-ips.txt
+$ips = Get-content C:\temp\ips.txt
 
 # Test IP Connectivity
 foreach ($ip in $ips) {
